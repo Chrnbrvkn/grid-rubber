@@ -1,0 +1,200 @@
+   
+
+.group22 {
+    grid-area: 304/450/ span 686/ span 990; 
+    
+}
+
+/* Group 22 */.22
+position: absolute;
+width: 990.22px;
+height: 686.92px;
+left: 450.22px;
+top: 304.92px;
+
+
+/* Ellipse 6 */
+
+position: absolute;
+width: 520px;
+height: 373px;
+left: -35px;
+top: -129px;
+
+background: rgba(255, 255, 255, 0.43);
+
+
+/* Group 16 */
+
+
+position: absolute;
+width: 382.93px;
+height: 395.42px;
+left: 34px;
+top: 258px;
+
+
+
+/* Rectangle 13 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 490px;
+height: 438px;
+left: 701px;
+top: 218px;
+
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 16px;
+
+
+/* Group 1 */
+
+
+position: absolute;
+width: 440px;
+height: 75px;
+left: 726px;
+top: 310px;
+
+
+
+/* Group 3 */
+
+
+position: absolute;
+width: 353px;
+height: 179px;
+left: 48px;
+top: 711px;
+
+
+
+/* Group 2 */
+
+
+position: absolute;
+width: 440px;
+height: 75px;
+left: 726px;
+top: 402px;
+
+
+
+/* Button */
+
+
+position: absolute;
+width: 440px;
+height: 48px;
+left: 726px;
+top: 507px;
+
+
+
+/* Забыли пароль? Восстановить */
+
+
+position: absolute;
+width: 273px;
+height: 27px;
+left: 824px;
+top: 570px;
+
+/* Header H3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #535353;
+
+
+
+/* Еще нет аккаунта? Зарегистрироваться */
+
+
+position: absolute;
+width: 351px;
+height: 27px;
+left: 790px;
+top: 609px;
+
+/* Header H3 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #535353;
+
+
+
+/* Вход */
+
+
+position: absolute;
+width: 79px;
+height: 37px;
+left: 906px;
+top: 248px;
+
+/* Header H1 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+
+color: #535353;
+
+
+
+/* logo 1 */
+
+
+position: absolute;
+width: 142px;
+height: 142px;
+left: 148px;
+top: 20px;
+
+background: url(logo.png);
+
+
+/* MEET FOR ME */
+
+
+position: absolute;
+width: 241px;
+height: 47px;
+left: 98px;
+top: 163px;
+
+/* Header H2 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 131.5%;
+/* or 34px */
+
+text-align: center;
+
+color: #FFFFFF;
