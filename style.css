@@ -1,0 +1,115 @@
+html {
+    font-size: 1.5vw;
+}
+body {
+    /* font-size: 1.5vw; */
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    /* padding: 15%; */
+    /* width: 1920px; */
+    /* height: 100%; */
+}
+/* .main {
+    width: 1920px;
+    height: 2000px;
+} */
+button {
+    padding: 0;
+    /* font-size: 1.5vw; */
+}
+
+.papa{
+    display: grid;
+    /* font-size: 2vh; */
+    grid-template-columns: repeat(1920, 1fr);
+    grid-template-rows: repeat(1080, 1fr);
+    width: 100vw;
+    height: 100vh;
+    /* box-sizing: border-box  ; */
+    
+}
+
+#parentOutput{
+    grid-area: 180/800/ span 265/ span 450;
+    border: 1px solid #999;
+    background-color: #999;
+}
+/* grid-template-area: top/left/ span heigth/ span width; */
+
+.mainLogo {
+    /* flex-wrap: wrap; */
+    /* width: max-content; */
+    /* min-width: 10vw; */
+    /* overflow: hidden; */
+    /* word-break: break-all; */
+    grid-area: 20/100/ span 100/ span 400;
+    font-size: 250%;
+    border: 1px solid #999;
+} 
+
+.description {
+    grid-area: 150/100/ span 205/ span 600;
+    /* min-height: 200px; */
+    /* max-width: 450px; */
+    /* min-width: 210px; */
+    border: 1px solid #999;
+    /* box-sizing: inherit; */
+
+}
+
+.guide {
+    grid-area: 375/100/ span 50/ span 400;
+    /* min-height: 50px; */
+    border: 1px solid #999;
+}
+
+#userText {
+
+grid-area: 450/260/ span 500/ span 450;
+border: 1px solid #999;
+/* min-width: 150px; */
+background-color: #999;
+/* padding: 20fr; */
+}
+
+#output {
+
+    grid-area: 450/1050/ span 500/ span 500;
+/* min-width: 350px; */
+border: 1px solid #999;
+background-color: #999;
+
+}
+
+.btnTranslate {
+grid-area: 450/740/ span 90/ span 290;
+/* min-width: 20px; */
+border: 1px solid #999;
+background-color: #999;
+}
+.zoo {
+    width: 1600px;
+    height: 780px;
+}
+.checkbox{
+
+    width: 100vw;
+    height: 500px;
+    background-color: teal;
+}
+
+#setWidth {
+    width: 12%;
+}
+
+#setHeight {
+    width: 12%;
+}
+
+.btnForPapa {
+    grid-area: 120/800/ span 55/ span 290;
+    background-color: #999;
+    
+}
