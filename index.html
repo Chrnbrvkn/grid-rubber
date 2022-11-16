@@ -4,13 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js"></script>
-    hcffmggj
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  
+    <title>rubber-grid</title>
+
 </head>
 <body>
-    <div class="group22"></div>
-    
+    <div class="main">
+        <!-- <p> .papa {
+            display:grid;
+            grid-template-columns: repeat(<input type="text">, 1fr);
+            grid-template-rows: repeat(<input type="text">, 1fr);
+            width: 100vw;
+            height: 100vh; 
+        </p> -->
+        <div class="papa">
+            <!-- <label for="scales">width (по умолчанию - 100 vw)</label>
+            <input type="text">
+            <label for="scales">height</label>
+            <input type="text"> -->
+            <div class="mainLogo">Rubber Grid</div>
+            <div class="description">
+                Запиши width <input id="setWidth" type="text"> и height <input id="setHeight" type="text"> для родительского контейнера после вставь стили всех дочерних контейнеров из Figma,
+                на выходе получишь готовое и гибкое расположение с CSS Grid Layout.
+            </div>
+            <button class="btnForPapa" onclick="getStyle()" >Parents style</button>
+            <textarea id="parentOutput"></textarea>
+            <a href="#" class="guide">Подробная инструкция</a>
+            <textarea id="userText"></textarea>
+            <button class="btnTranslate" onclick="consoleArray()">PUSH</button>    
+            <textarea id="output"></textarea>
+        </div>
+    </div>
+
+
+
+
+        <div class="zoo">
+            <div class="checkbox">
+                FAQ
+                <input type="checkbox">
+                <label for="scales">Scales</label>
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+
 </body>
+<script src="app.js" ></script>
+<script src="parent.js" ></script>
 </html>
